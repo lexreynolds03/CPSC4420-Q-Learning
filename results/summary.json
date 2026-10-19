@@ -1,0 +1,31 @@
+{
+  "baseline": {
+    "experiment": "baseline",
+    "setting": "baseline",
+    "train_last_1000_reward": 5.354,
+    "train_last_1000_success": 1.0,
+    "mean_reward": 7.9,
+    "std_reward": 2.6739483914241875,
+    "success_rate": 1.0,
+    "mean_steps": 13.1,
+    "eval_episodes": 100
+  },
+  "best_setting": "baseline",
+  "best_config": {
+    "alpha": 0.5,
+    "gamma": 0.95,
+    "eps_start": 1.0,
+    "eps_end": 0.05,
+    "eps_decay": 0.9995,
+    "episodes": 12000,
+    "seed": 42
+  },
+  "best_metrics": {
+    "mean_reward": 7.9,
+    "std_reward": 2.6739483914241875,
+    "success_rate": 1.0,
+    "mean_steps": 13.1,
+    "eval_episodes": 100
+  },
+  "note": "Best selected among baseline and individual parameter sweeps; not joint tuning."
+}
